@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSite</title>
+    <link rel="icon" type="image/png" href="./images/logo.jpg" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- carousal navbar -->
+  <div class="navbar" id="nav1">
+    <div id="carousal1" class="carousel slide navbar-brand container-fluid" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+             <p>PREMIUM MEMBER EARLY ACCESS : 25% OFF COLLECTIBLE EDITIONS</p>
+          </div>
+          <div class="carousel-item">
+             <P>PREMIUM MEMBER EARLY ACCESS : 50% OFF HUNDREDS OF HARDCOVERS</P>
+          </div>
+          <div class="carousel-item">
+            <P>PREMIUM MEMBER EARLY ACCESS : 30% OFF SELECT COLLECTIBLE FIGURES</P>
+          </div>
+          <div class="carousel-item">
+            <P>BUY ONE, GET ONE 50% OFF BOOKS FOR ALL AGES</P>
+          </div>
+          <div class="carousel-item">
+             <P>JOIN PREMIUM MEMBERSHIP TODAY</P>
+          </div>
+        </div>
+        <button class="carousel-control-prev pb-3" type="button" data-bs-target="#carousal1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next pb-3" type="button" data-bs-target="#carousal1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+    </div>
+<!-- Navigation Heading menu -->
+    <nav class="navbar  bg-light" id="nav2">
+      <div class="container-fluid">
+         <a class="navbar-brand fw-bolder d-flex" href="/"><img width="70px" src="./images/iconbook.png" alt=""><h1 style="color:  rgba(43, 34, 34, 0.847);">Reader's Ca`fe</h1></a>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" style="width:400px" placeholder="Search Your Favourate Book..." aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+           </form> 
+           <div class="mt-3  text-center" id="iconnav">
+            <i class="fa-solid fa-home mx-3"></i><br>
+            <a href="./index.html">Home</a>
+          </div>
+         <div class="mt-3  text-center" id="iconnav">
+           <i class="fa-solid fa-store mx-3"></i><br>
+           <a href="./gallery.html">Gallery</a>
+         </div>
+         <div class="mt-3  text-center">
+            <i class="fa-regular fa-id-card mx-3"></i><br>
+            <a href="./about.html">About</a>
+         </div>
+         <div class="mt-3  text-center">
+             <i class="fa-solid fa-phone-volume mx-3"></i><br>
+             <a href="./contact.html">Contact</a>
+         </div>
+         <div class="mt-3 text-center ">
+           <i class="fa-solid fa-cart-shopping mx-3"></i><br>
+            <a href="">Cart</a>
+         </div>
+       </div>
+    </nav>
+<!-- fiction carousal -->
+   <section class="mt-3 pb-5 " style=" width: 100%; height: 350px; background-color:  rgb(58, 49, 49); color:white">
+        <h1 >Fiction Books</h1> 
+        <div id="fiction" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="row" style="margin-left: 110px;"> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781250321619_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$14.99</h5>
+                            </div>
+                        </div>  
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781668016138_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$15.00</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780778334545_p0_v12_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$15.00</h5>
+                            </div>
+                        </div> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781668050095_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$25.00</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780062979896_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$14.00</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780778305231_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$14.49</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+                <div class="carousel-item ">
+                    <div class="row" style="margin-left: 110px;"> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9798212194297_p0_v4_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$17.49</h5>
+                            </div>
+                        </div>  
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780593722527_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$15.00</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780593318256_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$14.50  </h5>
+                            </div>
+                        </div> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781250905499_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$14.49 </h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780316405690_p0_v4_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$15.00 </h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781250874689_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$14.49</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>                       
+            </div> 
+            <button class="carousel-control-prev" type="button" data-bs-target="#fiction" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#fiction" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden ">Next</span>
+              </button>
+        </div>
+   </section>     
+ <!-- Non-fiction carousal -->
+   <section class="mt-3 pb-5 " style=" width: 100%; height: 350px; background-color:  rgb(58, 49, 49); color:white">
+    <h1 >Non-Fiction Books</h1> 
+    <div id="nonfiction" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class="row" style="margin-left: 110px;"> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781464216633_p0_v11_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$13.49</h5>
+                        </div>
+                    </div>  
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780385348751_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$14.99 </h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781640095410_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$15.00</h5>
+                        </div>
+                    </div> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781419766114_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$14.00</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781982148270_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$17.50</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781668061763_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$14.99</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="carousel-item ">
+                <div class="row" style="margin-left: 110px;"> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780785297994_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$14.99</h5>
+                        </div>
+                    </div>  
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781982169909_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$14.49</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781639363919_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$14.97  </h5>
+                        </div>
+                    </div> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780374609849_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$13.50 </h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781250310415_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$19.00 </h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781451673234_p0_v5_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$13.49</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>                       
+        </div> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#nonfiction" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#nonfiction" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden ">Next</span>
+          </button>
+       </div>
+   </section> 
+   <!-- Teens & YA  carousal -->
+   <section class="mt-3 pb-5 " style=" width: 100%; height: 350px; background-color:  rgb(58, 49, 49); color:white">
+    <h1 >Teens & YA Books</h1> 
+    <div id="teens" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class="row" style="margin-left: 110px;"> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781728272160_p0_v4_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$9.49</h5>
+                        </div>
+                    </div>  
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781547613748_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$9.99</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781250372628_p0_v2_s600x595.png" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$9.99</h5>
+                        </div>
+                    </div> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780063391130_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$12.49</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781250360717_p0_v4_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$10.00</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781250191458_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$10.00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="carousel-item ">
+                <div class="row" style="margin-left: 110px;"> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780593526279_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$9.49</h5>
+                        </div>
+                    </div>  
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781547615315_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$10.49</h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781682636473_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$9.49 </h5>
+                        </div>
+                    </div> 
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780593531020_p0_v2_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$9.49 </h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9781250826367_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$17.99 </h5>
+                        </div>
+                    </div>
+                    <div class="col-2 card mx-3" style="width: 9rem;">
+                        <img src="https://prodimage.images-bn.com/pimages/9780525647072_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                        <div class="card-body">
+                            <h5>$15.99</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>                       
+        </div> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#teens" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#teens" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden ">Next</span>
+          </button>
+      </div>
+   </section> 
+     <!-- Kids  carousal -->
+     <section class="mt-3 pb-5 " style=" width: 100%; height: 350px; background-color:  rgb(58, 49, 49); color:white">
+        <h1 >Kids Books</h1> 
+        <div id="kids" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="row" style="margin-left: 110px;"> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781250289797_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$9.49</h5>
+                            </div>
+                        </div>  
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780451471956_p0_v3_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$9.49</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780358695332_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$9.99</h5>
+                            </div>
+                        </div> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781338859218_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$7.49</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780887081682_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$4.49</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780062890290_p0_v5_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$9.49</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+                <div class="carousel-item ">
+                    <div class="row" style="margin-left: 110px;"> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781797231198_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$9.49</h5>
+                            </div>
+                        </div>  
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780593691670_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$18.99</h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781665916745_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$9.49 </h5>
+                            </div>
+                        </div> 
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9780316353229_p0_v15_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$17.99 </h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781665946506_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$18.99 </h5>
+                            </div>
+                        </div>
+                        <div class="col-2 card mx-3" style="width: 9rem;">
+                            <img src="https://prodimage.images-bn.com/pimages/9781665944427_p0_v1_s600x595.jpg" class="card-img-top" height="200px" alt="/">
+                            <div class="card-body">
+                                <h5>$18.99</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>                       
+            </div> 
+            <button class="carousel-control-prev" type="button" data-bs-target="#kids" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#kids" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden ">Next</span>
+              </button>
+          </div>
+       </section>     
+</body>     
